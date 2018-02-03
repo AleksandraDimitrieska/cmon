@@ -14,7 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
 Route::get('first', function () {
     return "first page";
+});
+Route::get('second', function () {
+    return "second page";
 });
