@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('first', function () {
     return "first page";
 });
+
+Route::get('second', function () {
+    return "second page";
+});
