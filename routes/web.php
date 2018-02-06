@@ -14,11 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
 Route::get('first', function () {
     return "first page";
 });
 
 Route::get('test-route', function () {
     return "test page";
+});
+
+Route::get('second', function () {
+    return "second page";
 });
